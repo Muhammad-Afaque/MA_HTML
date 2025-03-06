@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    const overlay = document.querySelector('.curve_text_bg .overlay');
+    const overlay = document.querySelector('#resp_desi .curve_text_bg .overlay');
     let currentRotation = 0;
     let targetRotation = 0;
     let isAnimating = false;
@@ -366,6 +366,111 @@ document.addEventListener('DOMContentLoaded', function () {
         // Restart auto-rotation after manual interaction
         setTimeout(startAutoRotation, 3000);
     });
+});
+document.addEventListener('DOMContentLoaded', function () {
+    // Register ScrollTrigger plugin
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Responsive Design Section Animation
+    const respDesignTimeline = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#resp_desi',
+            start: 'top 70%',
+            toggleActions: 'play none none none'
+        }
+    });
+
+    // Background effect animation
+    gsap.fromTo('#resp_desi',
+        {
+            backgroundSize: '110% auto',
+            backgroundColor: 'rgba(0, 0, 0, 0)'
+        },
+        {
+            backgroundSize: '100% auto',
+            backgroundColor: 'rgba(0, 0, 0, 0)',
+            duration: 1.8,
+            ease: 'power2.out',
+            scrollTrigger: {
+                trigger: '#resp_desi',
+                start: 'top 70%',
+                toggleActions: 'play none none none'
+            }
+        }
+    );
+
+    // Circular text animations
+    respDesignTimeline
+        // First rotate the entire container
+        .from('#resp_desi .curve_text_bg', {
+            rotation: -180,
+            scale: 0.7,
+            opacity: 0,
+            duration: 1.5,
+            ease: 'power3.out'
+        })
+        // Then animate each circular text with staggered rotation
+        .from('#resp_desi .overlay img', {
+            rotation: 90,
+            scale: 0.8,
+            opacity: 0,
+            stagger: 0.2,
+            duration: 1.2,
+            ease: 'back.out(1.7)'
+        }, '-=1.2')
+        // Counter-rotate the overlay for interesting effect
+        .from('#resp_desi .overlay', {
+            rotation: 45,
+            duration: 1.8,
+            ease: 'sine.inOut'
+        }, '-=1.5')
+        // Continuous rotation animation for subtle movement
+        .to('#resp_desi .overlay', {
+            rotation: '+=360',
+            duration: 30,
+            repeat: -1,
+            ease: 'none'
+        });
+
+    // Text content animations
+    const textTimeline = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#resp_desi',
+            start: 'top 70%',
+            toggleActions: 'play none none none'
+        }
+    });
+
+    textTimeline
+        .from('#resp_desi h2', {
+            x: 50,
+            opacity: 0,
+            duration: 0.8,
+            ease: 'power2.out'
+        }, 0.5)
+        .from('#resp_desi span', {
+            color: '#33B9C0',
+            duration: 0.6,
+            ease: 'power1.inOut'
+        }, '-=0.3')
+        .from('#resp_desi p', {
+            x: 50,
+            opacity: 0,
+            duration: 0.8,
+            ease: 'power2.out',
+            // Animate each line separately
+            stagger: {
+                amount: 0.3,
+                from: "start"
+            }
+        }, '-=0.5')
+        .from('#resp_desi a', {
+            y: 20,
+            opacity: 0,
+            scale: 0.9,
+            duration: 0.7,
+            ease: 'back.out(1.7)'
+        }, '-=0.3');
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -564,112 +669,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Register ScrollTrigger plugin
     gsap.registerPlugin(ScrollTrigger);
 
-    // Responsive Design Section Animation
-    const respDesignTimeline = gsap.timeline({
-        scrollTrigger: {
-            trigger: '#resp_desi',
-            start: 'top 70%',
-            toggleActions: 'play none none none'
-        }
-    });
-
-    // Background effect animation
-    gsap.fromTo('#resp_desi',
-        {
-            backgroundSize: '110% auto',
-            backgroundColor: 'rgba(0, 0, 0, 0)'
-        },
-        {
-            backgroundSize: '100% auto',
-            backgroundColor: 'rgba(0, 0, 0, 0)',
-            duration: 1.8,
-            ease: 'power2.out',
-            scrollTrigger: {
-                trigger: '#resp_desi',
-                start: 'top 70%',
-                toggleActions: 'play none none none'
-            }
-        }
-    );
-
-    // Circular text animations
-    respDesignTimeline
-        // First rotate the entire container
-        .from('#resp_desi .curve_text_bg', {
-            rotation: -180,
-            scale: 0.7,
-            opacity: 0,
-            duration: 1.5,
-            ease: 'power3.out'
-        })
-        // Then animate each circular text with staggered rotation
-        .from('#resp_desi .overlay img', {
-            rotation: 90,
-            scale: 0.8,
-            opacity: 0,
-            stagger: 0.2,
-            duration: 1.2,
-            ease: 'back.out(1.7)'
-        }, '-=1.2')
-        // Counter-rotate the overlay for interesting effect
-        .from('#resp_desi .overlay', {
-            rotation: 45,
-            duration: 1.8,
-            ease: 'sine.inOut'
-        }, '-=1.5')
-        // Continuous rotation animation for subtle movement
-        .to('#resp_desi .overlay', {
-            rotation: '+=360',
-            duration: 30,
-            repeat: -1,
-            ease: 'none'
-        });
-
-    // Text content animations
-    const textTimeline = gsap.timeline({
-        scrollTrigger: {
-            trigger: '#resp_desi',
-            start: 'top 70%',
-            toggleActions: 'play none none none'
-        }
-    });
-
-    textTimeline
-        .from('#resp_desi h2', {
-            x: 50,
-            opacity: 0,
-            duration: 0.8,
-            ease: 'power2.out'
-        }, 0.5)
-        .from('#resp_desi span', {
-            color: '#33B9C0',
-            duration: 0.6,
-            ease: 'power1.inOut'
-        }, '-=0.3')
-        .from('#resp_desi p', {
-            x: 50,
-            opacity: 0,
-            duration: 0.8,
-            ease: 'power2.out',
-            // Animate each line separately
-            stagger: {
-                amount: 0.3,
-                from: "start"
-            }
-        }, '-=0.5')
-        .from('#resp_desi a', {
-            y: 20,
-            opacity: 0,
-            scale: 0.9,
-            duration: 0.7,
-            ease: 'back.out(1.7)'
-        }, '-=0.3');
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Register ScrollTrigger plugin
-    gsap.registerPlugin(ScrollTrigger);
-
     // WordPress Development Section Animation
     const wpDevTimeline = gsap.timeline({
         scrollTrigger: {
@@ -741,4 +740,111 @@ document.addEventListener('DOMContentLoaded', () => {
     // if (sliderElement) {
     //     new CustomSlider(sliderElement);
     // }
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Register ScrollTrigger plugin
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Responsive Design Section Animation
+    const respDesignTimeline = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#Influencer_Management',
+            start: 'top 70%',
+            toggleActions: 'play none none none'
+        }
+    });
+
+    // Background effect animation
+    gsap.fromTo('#Influencer_Management',
+        {
+            backgroundSize: '110% auto',
+            backgroundColor: 'rgba(0, 0, 0, 0)'
+        },
+        {
+            backgroundSize: '100% auto',
+            backgroundColor: 'rgba(0, 0, 0, 0)',
+            duration: 1.8,
+            ease: 'power2.out',
+            scrollTrigger: {
+                trigger: '#Influencer_Management',
+                start: 'top 70%',
+                toggleActions: 'play none none none'
+            }
+        }
+    );
+
+    // Circular text animations
+    respDesignTimeline
+        // First rotate the entire container
+        .from('#Influencer_Management .curve_text_bg', {
+            rotation: -180,
+            scale: 0.7,
+            opacity: 0,
+            duration: 1.5,
+            ease: 'power3.out'
+        })
+        // Then animate each circular text with staggered rotation
+        .from('#Influencer_Management .overlay img', {
+            rotation: 90,
+            scale: 0.8,
+            opacity: 0,
+            stagger: 0.2,
+            duration: 1.2,
+            ease: 'back.out(1.7)'
+        }, '-=1.2')
+        // Counter-rotate the overlay for interesting effect
+        .from('#Influencer_Management .overlay', {
+            rotation: 45,
+            duration: 1.8,
+            ease: 'sine.inOut'
+        }, '-=1.5')
+        // Continuous rotation animation for subtle movement
+        .to('#Influencer_Management .overlay', {
+            rotation: '+=360',
+            duration: 30,
+            repeat: -1,
+            ease: 'none'
+        });
+
+    // Text content animations
+    const textTimeline = gsap.timeline({
+        scrollTrigger: {
+            trigger: '#Influencer_Management',
+            start: 'top 70%',
+            toggleActions: 'play none none none'
+        }
+    });
+
+    textTimeline
+        .from('#Influencer_Management h2', {
+            x: 50,
+            opacity: 0,
+            duration: 0.8,
+            ease: 'power2.out'
+        }, 0.5)
+        .from('#Influencer_Management span', {
+            color: '#33B9C0',
+            duration: 0.6,
+            ease: 'power1.inOut'
+        }, '-=0.3')
+        .from('#Influencer_Management p', {
+            x: 50,
+            opacity: 0,
+            duration: 0.8,
+            ease: 'power2.out',
+            // Animate each line separately
+            stagger: {
+                amount: 0.3,
+                from: "start"
+            }
+        }, '-=0.5')
+        .from('#Influencer_Management a', {
+            y: 20,
+            opacity: 0,
+            scale: 0.9,
+            duration: 0.7,
+            ease: 'back.out(1.7)'
+        }, '-=0.3');
 });
