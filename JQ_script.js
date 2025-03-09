@@ -111,6 +111,18 @@ $(document).ready(function () {
         margin: 0,
 
     });
+    $('.center-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        centerMode: true,
+        arrows: true,
+        dots: false,
+        speed: 300,
+        centerPadding: '20px',
+        infinite: true,
+        autoplaySpeed: 5000,
+        // autoplay: true
+      });
     $('.slider_brand_digital').slick({
         dots: false,
         infinite: false,
