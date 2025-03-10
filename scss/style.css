@@ -2314,7 +2314,6 @@ header.masthead .toggle .line3 {
   font-weight: 700;
   position: relative;
   display: inline-block;
-  display: none;
 }
 #responsivevnes h2 span:before {
   content: "";
@@ -2741,6 +2740,7 @@ header.masthead .toggle .line3 {
 #social_media_ads {
   padding: 7rem 0;
   background-color: #000;
+  overflow: clip;
 }
 #social_media_ads h2 {
   color: #fff;
@@ -4470,5 +4470,319 @@ header.masthead .toggle .line3 {
   height: 100%;
 }
 #contentCreationsReview img:nth-child(even) {
+  margin-top: 7.576vmin;
+}
+
+#contentCreationsLinkBuilding {
+  padding: 8rem 0;
+  background: #fff;
+  position: relative;
+}
+#contentCreationsLinkBuilding h2 {
+  color: #000;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Manrope;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1px;
+  margin-bottom: 6vmin;
+  text-align: center;
+}
+#contentCreationsLinkBuilding h2 span {
+  color: #33B9C0;
+  text-align: center;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+#contentCreationsLinkBuilding h2 span:before {
+  content: "";
+  position: absolute;
+  width: 8rem;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22173%22%20height%3D%2230%22%20viewBox%3D%220%200%20173%2030%22%20fill%3D%22none%22%3E%3Cmask%20id%3D%22mask0_625_6793%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22173%22%20height%3D%2230%22%3E%3Cpath%20d%3D%22M173%200H0V30H173V0Z%22%20fill%3D%22white%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23mask0_625_6793)%22%3E%3Cpath%20d%3D%22M9.80469%2018.8285C23.448%2022.3825%2037.8711%2023.2565%2051.9746%2021.3845C56.9864%2020.7195%2062.0415%2019.6615%2066.2673%2017.2875C69.2573%2015.6145%2075.047%2010.8885%2073.4399%207.39751C73.1146%206.81551%2072.6244%206.31051%2072.012%205.92851C71.3996%205.54651%2070.6851%205.29851%2069.9314%205.20651C65.9478%204.57151%2060.9533%205.41151%2057.8335%207.58051C53.4007%2010.6265%2051.914%2016.5275%2054.9992%2020.5885C58.4125%2025.0955%2065.637%2026.1685%2071.9538%2025.9785C87.3352%2025.5115%20102.562%2020.3105%20115.161%2013.0725C116.407%2012.4385%20117.503%2011.6135%20118.392%2010.6405C118.828%2010.1475%20119.11%209.57051%20119.211%208.96151C119.313%208.35251%20119.229%207.73151%20118.971%207.15651C117.908%205.21351%20114.495%205.06051%20112.369%206.22151C106.226%209.58851%20107.547%2017.1045%20114.003%2019.4635C118.151%2020.9755%20122.912%2020.4205%20127.319%2019.6175C140.074%2017.2685%20152.226%2013.0025%20163.198%207.02451%22%20stroke%3D%22%2333B9C0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  bottom: -23px;
+  left: -15px;
+}
+#contentCreationsLinkBuilding p {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 28.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5vmin;
+}
+#contentCreationsLinkBuilding ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 6vmin;
+}
+#contentCreationsLinkBuilding ul li {
+  color: #000;
+  font-family: Manrope;
+  font-size: 28.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#contentCreationsLinkBuilding a {
+  border-radius: 16px;
+  background: #33B9C0;
+  padding: 16.5px 46.42px 16.5px 46.41px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.3px;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+#contentCreationsLinkBuilding a:before {
+  content: "";
+  position: absolute;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2237%22%20height%3D%2236%22%20viewBox%3D%220%200%2037%2036%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M9.49805%209.00098L27.498%2027.001%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M9.492%2026.9923H27.4922V8.99219%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  bottom: 0px;
+  left: -27%;
+  background-color: #33b9c0;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  padding: 12px;
+  border-radius: 16px;
+}
+#contentCreationsLinkBuilding img {
+  height: 100%;
+  padding: 0 1rem;
+}
+
+#contentCreationsGMB {
+  padding: 8rem 0;
+  background: #000;
+  position: relative;
+  background: #000;
+  position: relative;
+  overflow: clip;
+  padding: 6rem 0;
+}
+#contentCreationsGMB h2 {
+  color: #fff;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Manrope;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1px;
+  margin-bottom: 6vmin;
+  text-align: center;
+}
+#contentCreationsGMB h2 span {
+  color: #33B9C0;
+  text-align: center;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+#contentCreationsGMB h2 span:before {
+  content: "";
+  position: absolute;
+  width: 8rem;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22173%22%20height%3D%2230%22%20viewBox%3D%220%200%20173%2030%22%20fill%3D%22none%22%3E%3Cmask%20id%3D%22mask0_625_6793%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22173%22%20height%3D%2230%22%3E%3Cpath%20d%3D%22M173%200H0V30H173V0Z%22%20fill%3D%22white%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23mask0_625_6793)%22%3E%3Cpath%20d%3D%22M9.80469%2018.8285C23.448%2022.3825%2037.8711%2023.2565%2051.9746%2021.3845C56.9864%2020.7195%2062.0415%2019.6615%2066.2673%2017.2875C69.2573%2015.6145%2075.047%2010.8885%2073.4399%207.39751C73.1146%206.81551%2072.6244%206.31051%2072.012%205.92851C71.3996%205.54651%2070.6851%205.29851%2069.9314%205.20651C65.9478%204.57151%2060.9533%205.41151%2057.8335%207.58051C53.4007%2010.6265%2051.914%2016.5275%2054.9992%2020.5885C58.4125%2025.0955%2065.637%2026.1685%2071.9538%2025.9785C87.3352%2025.5115%20102.562%2020.3105%20115.161%2013.0725C116.407%2012.4385%20117.503%2011.6135%20118.392%2010.6405C118.828%2010.1475%20119.11%209.57051%20119.211%208.96151C119.313%208.35251%20119.229%207.73151%20118.971%207.15651C117.908%205.21351%20114.495%205.06051%20112.369%206.22151C106.226%209.58851%20107.547%2017.1045%20114.003%2019.4635C118.151%2020.9755%20122.912%2020.4205%20127.319%2019.6175C140.074%2017.2685%20152.226%2013.0025%20163.198%207.02451%22%20stroke%3D%22%2333B9C0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  bottom: -23px;
+  left: -15px;
+}
+#contentCreationsGMB p {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 28.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5vmin;
+}
+#contentCreationsGMB ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 6vmin;
+}
+#contentCreationsGMB ul li {
+  color: #000;
+  font-family: Manrope;
+  font-size: 28.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#contentCreationsGMB a {
+  border-radius: 16px;
+  background: #33B9C0;
+  padding: 16.5px 46.42px 16.5px 46.41px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.3px;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+#contentCreationsGMB a:before {
+  content: "";
+  position: absolute;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2237%22%20height%3D%2236%22%20viewBox%3D%220%200%2037%2036%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M9.49805%209.00098L27.498%2027.001%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M9.492%2026.9923H27.4922V8.99219%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  bottom: 0px;
+  left: -27%;
+  background-color: #33b9c0;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  padding: 12px;
+  border-radius: 16px;
+}
+#contentCreationsGMB img {
+  width: 100%;
+}
+
+#contentCreationsYoutubeSEO {
+  padding: 8rem 0;
+  background: #fff;
+}
+#contentCreationsYoutubeSEO h2 {
+  color: #000;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Manrope;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1px;
+  margin-bottom: 6vmin;
+  text-align: center;
+}
+#contentCreationsYoutubeSEO h2 span {
+  color: #33B9C0;
+  text-align: center;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+}
+#contentCreationsYoutubeSEO h2 span:before {
+  content: "";
+  position: absolute;
+  width: 8rem;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22173%22%20height%3D%2230%22%20viewBox%3D%220%200%20173%2030%22%20fill%3D%22none%22%3E%3Cmask%20id%3D%22mask0_625_6793%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22173%22%20height%3D%2230%22%3E%3Cpath%20d%3D%22M173%200H0V30H173V0Z%22%20fill%3D%22white%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23mask0_625_6793)%22%3E%3Cpath%20d%3D%22M9.80469%2018.8285C23.448%2022.3825%2037.8711%2023.2565%2051.9746%2021.3845C56.9864%2020.7195%2062.0415%2019.6615%2066.2673%2017.2875C69.2573%2015.6145%2075.047%2010.8885%2073.4399%207.39751C73.1146%206.81551%2072.6244%206.31051%2072.012%205.92851C71.3996%205.54651%2070.6851%205.29851%2069.9314%205.20651C65.9478%204.57151%2060.9533%205.41151%2057.8335%207.58051C53.4007%2010.6265%2051.914%2016.5275%2054.9992%2020.5885C58.4125%2025.0955%2065.637%2026.1685%2071.9538%2025.9785C87.3352%2025.5115%20102.562%2020.3105%20115.161%2013.0725C116.407%2012.4385%20117.503%2011.6135%20118.392%2010.6405C118.828%2010.1475%20119.11%209.57051%20119.211%208.96151C119.313%208.35251%20119.229%207.73151%20118.971%207.15651C117.908%205.21351%20114.495%205.06051%20112.369%206.22151C106.226%209.58851%20107.547%2017.1045%20114.003%2019.4635C118.151%2020.9755%20122.912%2020.4205%20127.319%2019.6175C140.074%2017.2685%20152.226%2013.0025%20163.198%207.02451%22%20stroke%3D%22%2333B9C0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  bottom: -23px;
+  left: -15px;
+}
+#contentCreationsYoutubeSEO p {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 28.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 5vmin;
+}
+#contentCreationsYoutubeSEO ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 6vmin;
+}
+#contentCreationsYoutubeSEO ul li {
+  color: #000;
+  font-family: Manrope;
+  font-size: 28.34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#contentCreationsYoutubeSEO a {
+  border-radius: 16px;
+  background: #33B9C0;
+  padding: 16.5px 46.42px 16.5px 46.41px;
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.3px;
+  width: -moz-max-content;
+  width: max-content;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+#contentCreationsYoutubeSEO a:before {
+  content: "";
+  position: absolute;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2237%22%20height%3D%2236%22%20viewBox%3D%220%200%2037%2036%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M9.49805%209.00098L27.498%2027.001%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M9.492%2026.9923H27.4922V8.99219%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  bottom: 0px;
+  left: -27%;
+  background-color: #33b9c0;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  padding: 12px;
+  border-radius: 16px;
+}
+#contentCreationsYoutubeSEO img {
+  width: 35.9vmin;
+  height: 100%;
+}
+#contentCreationsYoutubeSEO img:nth-child(even) {
   margin-top: 7.576vmin;
 }/*# sourceMappingURL=style.css.map */
