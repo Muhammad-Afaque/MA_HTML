@@ -91,6 +91,26 @@ $(document).ready(function () {
         margin: 0,
 
     });
+    $('.shopifu_slider_5').slick({
+        dots: false,
+        infinite: true,
+        speed: 8000,
+        autoplay: true,
+        autoplaySpeed: 0,
+        arrws: false,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        pauseOnHover: false,
+        cssEase: 'linear',
+        draggable: false,
+        swipe: false,
+        touchMove: false,
+        variableWidth: false,
+        centerMode: false,
+        centerPadding: '0px',
+        margin: 0,
+
+    });
     $('.shopifu_slider_4').slick({
         dots: false,
         infinite: true,
@@ -121,8 +141,20 @@ $(document).ready(function () {
         centerPadding: '20px',
         infinite: true,
         autoplaySpeed: 5000,
-        // autoplay: true
-      });
+        autoplay: true
+    });
+    $('.centericSlider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: true,
+        arrows: true,
+        dots: true,
+        speed: 300,
+        centerPadding: '20px',
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: false
+    });
     $('.slider_brand_digital').slick({
         dots: false,
         infinite: false,
@@ -155,17 +187,13 @@ $(document).ready(function () {
             }
         ]
     });
-
     initVerticalSliderWithScrollbar(
         '.slick',
         '.custom-scrollbar',
         '.scrollbar-handle'
     );
-
     initAdvancedSlider('.rev_slider');
-
 });
-
 
 function initAdvancedSlider(selector, options = {}) {
     // Default configuration
@@ -348,3 +376,4 @@ function initVerticalSliderWithScrollbar(sliderSelector, scrollbarSelector, hand
         handle: handle
     };
 }
+

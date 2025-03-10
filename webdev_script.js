@@ -55,7 +55,7 @@ class HeroAnimation {
         this.heroSection.addEventListener('mouseleave', this.handleMouseLeave);
 
         // Initialize spotlight position
-        this.spotlight.style.backgroundImage = 'radial-gradient(circle at 2.93843% 61.8908%, transparent 20%, rgb(0, 0, 0) 37%)';
+        this.spotlight.style.backgroundImage = 'radial-gradient(circle at 2.93843% 61.8908%, transparent 20%, rgb(0, 0, 0) 25%)';
     }
 
     /**
@@ -67,7 +67,7 @@ class HeroAnimation {
         const yPos = (e.pageY / window.innerHeight) * 100;
 
         this.spotlight.style.backgroundImage =
-            `radial-gradient(circle at ${xPos}% ${yPos}%, transparent 5%, rgb(0, 0, 0) 10%)`;
+            `radial-gradient(circle at ${xPos}% ${yPos}%, transparent 5%, rgb(0, 0, 0) 25%)`;
     }
 
     /**
