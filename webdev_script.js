@@ -1026,12 +1026,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', () => {
     // Check if cards-box elements exist
-    let sliderImagesBox = document.querySelectorAll('#content_mng_linkedin .cards-box');
+    let sliderImagesBox = document.querySelectorAll('#content_tiktok_mng .cards-box');
     
     if (sliderImagesBox && sliderImagesBox.length > 0) {
         sliderImagesBox.forEach(el => {
             // Check if there are non-hidden card elements
-            let imageNodes = el.querySelectorAll('#content_mng_linkedin .card:not(.hide)');
+            let imageNodes = el.querySelectorAll('#content_tiktok_mng .card:not(.hide)');
             
             if (imageNodes && imageNodes.length > 0) {
                 let arrIndexes = []; // Index array
