@@ -1063,6 +1063,44 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Check if cards-box elements exist
+    let sliderImagesBox = document.querySelectorAll('#amazonMAReasearch .cards-box');
+    
+    if (sliderImagesBox && sliderImagesBox.length > 0) {
+        sliderImagesBox.forEach(el => {
+            // Check if there are non-hidden card elements
+            let imageNodes = el.querySelectorAll('#amazonMAReasearch .card:not(.hide)');
+            
+            if (imageNodes && imageNodes.length > 0) {
+                let arrIndexes = []; // Index array
+                
+                (() => {
+                    // The loop that added values to the arrIndexes array for the first time
+                    let start = 0;
+                    while (imageNodes.length > start) {
+                        arrIndexes.push(start++);
+                    }
+                })();
+                
+                let setIndex = (arr) => {
+                    for(let i = 0; i < imageNodes.length; i++) {
+                        imageNodes[i].dataset.slide = arr[i]; // Set indexes
+                    }
+                };
+                
+                // Add click event only if we have elements to work with
+                el.addEventListener('click', () => {
+                    arrIndexes.unshift(arrIndexes.pop());
+                    setIndex(arrIndexes);
+                });
+                
+                setIndex(arrIndexes); // The first indexes addition
+            }
+        });
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
     gsap.registerPlugin(
         ScrollTrigger,
         Flip,
