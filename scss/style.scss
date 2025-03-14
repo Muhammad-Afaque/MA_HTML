@@ -4560,7 +4560,8 @@ $text-white: #ffffff;
             }
         }
 
-        &:hover {
+        &:hover,
+        &:active {
             .slide_vex {
                 &:nth-child(1) {
                     img {
@@ -9893,6 +9894,7 @@ header.masthead section.fullbarBG {
 
 #branddesignsolution h2 {
     margin-bottom: 1rem;
+    font-size: 6vmin;
 }
 
 #branddesignsolution .title-link {
@@ -9906,4 +9908,574 @@ header.masthead section.fullbarBG {
 #branddesignsolution h5 {
     font-size: 6vmin;
     line-height: 2;
+}
+
+#branddesignsolution .image-container {
+    border-radius: unset;
+    height: 50vh;
+}
+
+#branddesignsolution .image-container .branding {
+    border-radius: unset;
+    padding: 3rem 2rem 0.2rem;
+}
+
+#footerCTA h2 {
+    font-size: 8vmin;
+    line-height: normal;
+}
+
+#footerCTA h2 span {
+    font-size: 8vmin;
+    line-height: normal;
+}
+
+#footerCTA h4 {
+    margin: 1.5rem 0;
+    font-size: 5vmin;
+}
+
+#footerCTA p {
+    font-size: 4vmin;
+    width: 80%;
+}
+
+#footerCTA .ctaCard .upperPortion ul li {
+    font-size: 3.4vmin;
+}
+
+#footerCTA .ctaCard .upperPortion .img img {
+    border-radius: 50%;
+    width: 25vmin;
+}
+
+#footerCTA .ctaCard .upperPortion .img a img {
+    width: 9vmin;
+}
+
+#footerCTA .FormCTA {
+    margin: 3rem 0;
+}
+
+#footerCTA .FormCTA textarea,
+#footerCTA .FormCTA input {
+    font-size: 4vmin;
+}
+
+#creations3d p {
+    padding: 0 10%;
+}
+
+#creations3d p {
+    font-size: 4vmin;
+}
+
+#creations3d a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#creations3d a {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#creations3d .slick-prev {
+    top: 61%;
+    z-index: 7;
+}
+
+#creations3d .slick-next {
+    top: 61%;
+    z-index: 7;
+}
+
+#creations3d .wrap {
+    left: -3%;
+    position: relative;
+}
+
+
+#motionDesign h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#motionDesign p {
+    font-size: 4vmin;
+}
+
+#motionDesign a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#motionDesign a {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#motionDesign .shopifu_slider_5 .slide_vex img {
+    width: 19vmin;
+}
+
+
+
+
+#contentCreationstiktokads h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#contentCreationstiktokads p {
+    font-size: 4vmin;
+}
+
+#contentCreationstiktokads a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#contentCreationstiktokads a {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#contentCreationstiktokads .tiktoksAds {
+    margin: 6rem 0 15rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: unset;
+
+    .slide_vex {
+        position: absolute;
+        transition: transform 0.5s ease;
+
+        &:nth-child(1) {
+            img {
+                width: 55vmin;
+                transform-origin: 58% 122%;
+                rotate: 0;
+                transition: rotate 0.5s ease;
+            }
+        }
+
+        &:nth-child(2) {
+            img {
+                width: 55vmin;
+                z-index: 2;
+                position: relative;
+                transition: transform 0.5s ease;
+                // The commented styles have been preserved as comments
+                // transform-origin: 59% 128%;
+                // rotate: 330deg;
+            }
+        }
+
+        &:nth-child(3) {
+            img {
+                width: 55vmin;
+                transform-origin: 41% 122%;
+                rotate: 0;
+                transition: rotate 0.5s ease;
+            }
+        }
+    }
+
+
+
+    .slide_vex {
+        &:nth-child(1) {
+            img {
+                rotate: 20deg;
+            }
+        }
+
+        &:nth-child(2) {
+            img {
+                // transform: scale(1.05);
+            }
+        }
+
+        &:nth-child(3) {
+            img {
+                rotate: -20deg;
+            }
+        }
+
+    }
+}
+
+
+#contentCreationsWalMart h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#contentCreationsWalMart p {
+    font-size: 4vmin;
+}
+
+#contentCreationsWalMart a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#contentCreationsWalMart a {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#contentCreationsWalMart .convexS-liderContainer svg.firstOne {
+    position: absolute;
+    top: -14%;
+}
+
+#contentCreationsWalMart .convexS-liderContainer svg.secondOne {
+    position: absolute;
+    bottom: -14% !important;
+}
+
+header.masthead {
+    height: 8rem;
+    background-color: #fff;
+    z-index: 10;
+    position: fixed;
+}
+
+#amazonMAReasearch h2 {
+    font-size: 5vmin;
+}
+
+#amazonMAReasearch h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#amazonMAReasearch p {
+    font-size: 4vmin;
+}
+
+#amazonMAReasearch a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#amazonMAReasearch a {
+    margin-left: 1.5rem;
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#amazonMAReasearch .brandLogo {
+    width: 25%;
+    margin: 10px;
+}
+
+#amazonMAReasearch .brandLogo img {
+    width: 23vmin;
+}
+
+
+
+section#designExcellenceAmazon h2 {
+    font-size: 5vmin;
+}
+
+section#designExcellenceAmazon h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+section#designExcellenceAmazon p {
+    font-size: 4vmin;
+}
+
+section#designExcellenceAmazon a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#designExcellenceAmazon .card3PL {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    padding: 50px 0;
+}
+
+#designExcellenceAmazon .col-md-9.d-flex {
+    flex-direction: column;
+}
+
+#designExcellenceAmazon .card3PL h4 {
+    font-size: 7vmin;
+    margin: 10px 0;
+}
+
+#designExcellenceAmazon .card3PL h5 {
+    font-size: 4vmin;
+}
+
+#accordian_ma_amazon .custom-accordion .accordion-button {
+    font-size: 4vmin;
+    padding: 2rem;
+}
+
+#accordian_ma_amazon .custom-accordion .accordion-body {
+    font-size: 4vmin;
+    padding: 2rem 1.5rem;
+}
+
+#accordian_ma_amazon .custom-accordion .accordion-button::before {
+    width: 7vmin;
+    height: 7vmin;
+    right: 4vmin;
+    font-size: 4vmin;
+}
+
+
+#letGetConnected h2 {
+    font-size: 5vmin;
+}
+
+#letGetConnected h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#letGetConnected p {
+    font-size: 4vmin;
+}
+
+#letGetConnected a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#letGetConnected a {
+    margin-left: 2.5rem;
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#letGetConnected img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#careerForm .container-xxl {
+    padding: 8vmin;
+}
+
+#careerForm .container-xxl h3 {
+    font-size: 6vmin;
+    line-height: 50px;
+}
+
+#careerForm .FormCTA input.w-48 {
+    width: 100%;
+}
+
+
+
+#careerForm .FormCTA button::before {
+    left: -23%;
+    width: 39px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#careerForm .FormCTA button {
+    margin-left: 2rem;
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+section#careerForm {
+    padding: 4rem 0;
+}
+
+#careerForm .container-xxl {
+    padding: 8vmin;
+}
+
+#careerForm .container-xxl h3 {
+    font-size: 6vmin;
+    line-height: 50px;
+}
+
+#careerForm .FormCTA input.w-48 {
+    width: 100%;
+}
+
+
+
+#careerForm .FormCTA button::before {
+    left: -23%;
+    width: 39px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#careerForm .FormCTA button {
+    margin-left: 2rem;
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+section#careerForm {
+    padding: 4rem 0;
+}
+
+#nextCareer h2 {
+    font-size: 6vmin;
+    letter-spacing: -1px;
+    line-height: 50px;
+}
+
+#nextCareer span {
+    font-size: 4vmin;
+    line-height: 50px;
+}
+
+#nextCareer p {
+    font-size: 5vmin;
+    line-height: 31px;
+    margin-bottom: 5rem;
+}
+
+#nextCareer .animatingDude {
+    width: 9vmin;
+    margin-bottom: 26rem;
+}
+
+#nextCareer .cardList a::before {
+    left: -32%;
+    width: 39px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#nextCareer .cardList a {
+    margin-left: 2rem;
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+
+#nextCareer .cardList {
+    margin: 1rem 0;
+}
+
+#workWithUs h2 {
+    font-size: 6vmin;
+}
+
+#workWithUs h2 span::before {
+    height: 5rem;
+    bottom: -5px;
+    left: -3px;
+    width: 5.5rem;
+}
+
+
+#workWithUs .cardbenfits {
+    margin: 1rem 0;
+    border: none;
+}
+
+#brandingServiceUSA p {
+    font-size: 4vmin;
+}
+
+
+#brandingServiceUSA a::before {
+    left: -22%;
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#brandingServiceUSA a {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#brandingServiceUSA img {
+    width: 45vmin;
+    height: 100%;
+    margin: 10px;
+}
+
+#brandingServiceUSA {
+    padding: 8rem 0 0;
+}
+
+#designExcellence h2 {
+    font-size: 6vmin;
+}
+
+#designExcellence h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#designExcellence h2 {
+    font-size: 6vmin;
 }
