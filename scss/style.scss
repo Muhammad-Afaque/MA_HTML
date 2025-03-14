@@ -9594,888 +9594,888 @@ $text-white: #ffffff;
 /* media query */
 /* /////////////////// */
 
-
-
-header.masthead section.fullbarBG .topbar h3 {
-    text-align: center;
-    font-size: 4vmin;
-}
-
-
-header.masthead section.fullbarBG .topbar {
-    justify-content: center;
-    align-items: center;
-}
-
-header.masthead section.fullbarBG .topbar a {
-    display: none;
-}
-
-.CTA.my-auto {
-    display: none;
-}
-
-nav {
-    width: 100%;
-}
-
-header.masthead ul.nav-links {
-    justify-content: start;
-    padding-top: 50%;
-}
-
-header.masthead ul.nav-links li {
-    padding: 5vmin 0;
-}
-
-#sm_tabs .hexagon-home .graphic {
-    flex-direction: column !important;
-}
-
-#sm_tabs .hexagon-home .graphic .entries {
-    height: 100%;
-}
-
-#sm_tabs .hexagon-home h2 {
-    font-size: 6vmin;
-}
-
-#sm_tabs .hexagon-home .graphic .entries .hex-cell {
-    padding: 0 3rem;
-    justify-content: flex-start;
-    height: 17vmin;
-}
-
-#sm_tabs .hexagon-home .graphic .entries .hex-cell span a {
-    font-size: 4vmin;
-}
-
-#sm_tabs .hexagon-home .graphic .entries .hex-cell span a svg {
-    width: 8vmin;
-    margin-left: 1rem;
-
-}
-
-#sm_tabs .hexagon-home .graphic .selected-wrap {
-    width: 100%;
-    padding: 0 2rem;
-}
-
-#values .accordion__item:active {
-    width: 160vmin;
-}
-
-#values .accordion__item.expanded {
-    width: 160vmin;
-}
-
-#values .accordion__item.expanded {
-    width: 160vmin;
-}
-
-#seo h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#values .accordion {
-    width: 1300px;
-    overflow-x: scroll;
-}
-
-#seo h4 {
-    margin: 1.5rem 0;
-    font-size: 5vmin;
-}
-
-#seo p {
-    font-size: 4vmin;
-    width: 80%;
-}
-
-#seo .seoFeatureCardParent .seoFeatureCard {
-    width: 19em;
-    height: 19em;
-}
-
-#seo .seoFeatureCardParent .seoFeatureCard img {
-    width: 10em;
-}
-
-#seo .seoFeatureCardParent .seoFeatureCard h4 {
-    font-size: 7vmin;
-}
-
-#seo .seoFeatureCardParent .seoFeatureCard h5 {
-    font-size: 5vmin;
-}
-
-
-#seo .seoFeatureCardParent {
-    padding-top: 1rem;
-}
-
-#BrandSuccessSteps h4 {
-    margin: 1.5rem 0;
-    font-size: 5vmin;
-}
-
-#BrandSuccessSteps p {
-    font-size: 4vmin;
-    width: 80%;
-}
-
-#BrandSuccessSteps h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#BrandSuccessSteps .MALogo {
-    display: none;
-}
-
-#BrandSuccessSteps .slides_steps p {
-    width: 100%;
-    font-size: 3.5vmin;
-}
-
-#BrandSuccessSteps .slides_steps h2 {
-    font-size: 5vmin;
-}
-
-#BrandSuccessSteps {
-    min-height: 85vh;
-    position: relative;
-    padding: 5rem 0 0;
-}
-
-#services.services-section h2::before {
-    bottom: -5px;
-    left: 25%;
-    width: 3.5rem;
-}
-
-#services.services-section .service-card .card-content .card-title {
-    font-size: 1rem;
-}
-
-#services.services-section {
-    min-height: 208vh;
-}
-
-#services.services-section .cards-container.grid-view {
-    z-index: 1;
-}
-
-#services.services-section {
-    background: none;
-}
-
-header.masthead section.fullbarBG {
-    width: 100vw;
-}
-
-.ecommerce-services h2 span::before {
-    bottom: -5px;
-    left: 25%;
-    width: 3.5rem;
-
-}
-
-.ecommerce-services button::before {
-
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-.ecommerce-services button {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-.ecommerce-services .service-card-ecom {
-    margin-left: -17px;
-}
-
-#plservices svg {
-    height: 100%;
-}
-
-#plservices {
-    padding: 5rem 0 0;
-}
-
-#experience button::before {
-
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#experience button {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#experience h3 {
-    line-height: unset;
-}
-
-#experience h3 br {
-    display: none;
-}
-
-#socialmedia.socialmedia-section h2::before {
-    bottom: -5px;
-    left: 4%;
-    width: 3.5rem;
-}
-
-#socialmedia.socialmedia-section .convexS-liderContainer svg.firstOne {
-    top: -13%;
-}
-
-#socialmedia.socialmedia-section .convexS-liderContainer svg.secondOne {
-    bottom: -14%;
-}
-
-#threeddesign .designCard h4 {
-    font-size: 4vmin;
-    top: 5em;
-}
-
-
-#threeddesign .designCard button::before {
-
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#threeddesign .designCard button {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#graphicdesign .image-container {
-    display: flex;
-    justify-content: center;
-}
-
-#graphicdesign h5 {
-    margin-bottom: 2rem;
-}
-
-#branddesignsolution .before {
-    display: none;
-}
-
-#branddesignsolution .after {
-    display: none;
-}
-
-#branddesignsolution h2 span::before {
-    bottom: -5px;
-    left: 25%;
-    width: 3.5rem;
-}
-
-#branddesignsolution h2 {
-    margin-bottom: 1rem;
-    font-size: 6vmin;
-}
-
-#branddesignsolution .title-link {
-    width: 40%;
-}
-
-#branddesignsolution .title-brand {
-    width: 45%;
-}
-
-#branddesignsolution h5 {
-    font-size: 6vmin;
-    line-height: 2;
-}
-
-#branddesignsolution .image-container {
-    border-radius: unset;
-    height: 50vh;
-}
-
-#branddesignsolution .image-container .branding {
-    border-radius: unset;
-    padding: 3rem 2rem 0.2rem;
-}
-
-#footerCTA h2 {
-    font-size: 8vmin;
-    line-height: normal;
-}
-
-#footerCTA h2 span {
-    font-size: 8vmin;
-    line-height: normal;
-}
-
-#footerCTA h4 {
-    margin: 1.5rem 0;
-    font-size: 5vmin;
-}
-
-#footerCTA p {
-    font-size: 4vmin;
-    width: 80%;
-}
-
-#footerCTA .ctaCard .upperPortion ul li {
-    font-size: 3.4vmin;
-}
-
-#footerCTA .ctaCard .upperPortion .img img {
-    border-radius: 50%;
-    width: 25vmin;
-}
-
-#footerCTA .ctaCard .upperPortion .img a img {
-    width: 9vmin;
-}
-
-#footerCTA .FormCTA {
-    margin: 3rem 0;
-}
-
-#footerCTA .FormCTA textarea,
-#footerCTA .FormCTA input {
-    font-size: 4vmin;
-}
-
-#creations3d p {
-    padding: 0 10%;
-}
-
-#creations3d p {
-    font-size: 4vmin;
-}
-
-#creations3d a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#creations3d a {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#creations3d .slick-prev {
-    top: 61%;
-    z-index: 7;
-}
-
-#creations3d .slick-next {
-    top: 61%;
-    z-index: 7;
-}
-
-#creations3d .wrap {
-    left: -3%;
-    position: relative;
-}
-
-
-#motionDesign h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#motionDesign p {
-    font-size: 4vmin;
-}
-
-#motionDesign a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#motionDesign a {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#motionDesign .shopifu_slider_5 .slide_vex img {
-    width: 19vmin;
-}
-
-
-
-
-#contentCreationstiktokads h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#contentCreationstiktokads p {
-    font-size: 4vmin;
-}
-
-#contentCreationstiktokads a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#contentCreationstiktokads a {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#contentCreationstiktokads .tiktoksAds {
-    margin: 6rem 0 15rem;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    min-height: unset;
-
-    .slide_vex {
+@media only screen and (max-width: 600px) {
+    header.masthead section.fullbarBG .topbar h3 {
+        text-align: center;
+        font-size: 4vmin;
+    }
+
+
+    header.masthead section.fullbarBG .topbar {
+        justify-content: center;
+        align-items: center;
+    }
+
+    header.masthead section.fullbarBG .topbar a {
+        display: none;
+    }
+
+    .CTA.my-auto {
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    header.masthead ul.nav-links {
+        justify-content: start;
+        padding-top: 50%;
+    }
+
+    header.masthead ul.nav-links li {
+        padding: 5vmin 0;
+    }
+
+    #sm_tabs .hexagon-home .graphic {
+        flex-direction: column !important;
+    }
+
+    #sm_tabs .hexagon-home .graphic .entries {
+        height: 100%;
+    }
+
+    #sm_tabs .hexagon-home h2 {
+        font-size: 6vmin;
+    }
+
+    #sm_tabs .hexagon-home .graphic .entries .hex-cell {
+        padding: 0 3rem;
+        justify-content: flex-start;
+        height: 17vmin;
+    }
+
+    #sm_tabs .hexagon-home .graphic .entries .hex-cell span a {
+        font-size: 4vmin;
+    }
+
+    #sm_tabs .hexagon-home .graphic .entries .hex-cell span a svg {
+        width: 8vmin;
+        margin-left: 1rem;
+
+    }
+
+    #sm_tabs .hexagon-home .graphic .selected-wrap {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    #values .accordion__item:active {
+        width: 160vmin;
+    }
+
+    #values .accordion__item.expanded {
+        width: 160vmin;
+    }
+
+    #values .accordion__item.expanded {
+        width: 160vmin;
+    }
+
+    #seo h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #values .accordion {
+        width: 1300px;
+        overflow-x: scroll;
+    }
+
+    #seo h4 {
+        margin: 1.5rem 0;
+        font-size: 5vmin;
+    }
+
+    #seo p {
+        font-size: 4vmin;
+        width: 80%;
+    }
+
+    #seo .seoFeatureCardParent .seoFeatureCard {
+        width: 19em;
+        height: 19em;
+    }
+
+    #seo .seoFeatureCardParent .seoFeatureCard img {
+        width: 10em;
+    }
+
+    #seo .seoFeatureCardParent .seoFeatureCard h4 {
+        font-size: 7vmin;
+    }
+
+    #seo .seoFeatureCardParent .seoFeatureCard h5 {
+        font-size: 5vmin;
+    }
+
+
+    #seo .seoFeatureCardParent {
+        padding-top: 1rem;
+    }
+
+    #BrandSuccessSteps h4 {
+        margin: 1.5rem 0;
+        font-size: 5vmin;
+    }
+
+    #BrandSuccessSteps p {
+        font-size: 4vmin;
+        width: 80%;
+    }
+
+    #BrandSuccessSteps h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #BrandSuccessSteps .MALogo {
+        display: none;
+    }
+
+    #BrandSuccessSteps .slides_steps p {
+        width: 100%;
+        font-size: 3.5vmin;
+    }
+
+    #BrandSuccessSteps .slides_steps h2 {
+        font-size: 5vmin;
+    }
+
+    #BrandSuccessSteps {
+        min-height: 85vh;
+        position: relative;
+        padding: 5rem 0 0;
+    }
+
+    #services.services-section h2::before {
+        bottom: -5px;
+        left: 25%;
+        width: 3.5rem;
+    }
+
+    #services.services-section .service-card .card-content .card-title {
+        font-size: 1rem;
+    }
+
+    #services.services-section {
+        min-height: 208vh;
+    }
+
+    #services.services-section .cards-container.grid-view {
+        z-index: 1;
+    }
+
+    #services.services-section {
+        background: none;
+    }
+
+    header.masthead section.fullbarBG {
+        width: 100vw;
+    }
+
+    .ecommerce-services h2 span::before {
+        bottom: -5px;
+        left: 25%;
+        width: 3.5rem;
+
+    }
+
+    .ecommerce-services button::before {
+
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    .ecommerce-services button {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    .ecommerce-services .service-card-ecom {
+        margin-left: -17px;
+    }
+
+    #plservices svg {
+        height: 100%;
+    }
+
+    #plservices {
+        padding: 5rem 0 0;
+    }
+
+    #experience button::before {
+
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #experience button {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #experience h3 {
+        line-height: unset;
+    }
+
+    #experience h3 br {
+        display: none;
+    }
+
+    #socialmedia.socialmedia-section h2::before {
+        bottom: -5px;
+        left: 4%;
+        width: 3.5rem;
+    }
+
+    #socialmedia.socialmedia-section .convexS-liderContainer svg.firstOne {
+        top: -13%;
+    }
+
+    #socialmedia.socialmedia-section .convexS-liderContainer svg.secondOne {
+        bottom: -14%;
+    }
+
+    #threeddesign .designCard h4 {
+        font-size: 4vmin;
+        top: 5em;
+    }
+
+
+    #threeddesign .designCard button::before {
+
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #threeddesign .designCard button {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #graphicdesign .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #graphicdesign h5 {
+        margin-bottom: 2rem;
+    }
+
+    #branddesignsolution .before {
+        display: none;
+    }
+
+    #branddesignsolution .after {
+        display: none;
+    }
+
+    #branddesignsolution h2 span::before {
+        bottom: -5px;
+        left: 25%;
+        width: 3.5rem;
+    }
+
+    #branddesignsolution h2 {
+        margin-bottom: 1rem;
+        font-size: 6vmin;
+    }
+
+    #branddesignsolution .title-link {
+        width: 40%;
+    }
+
+    #branddesignsolution .title-brand {
+        width: 45%;
+    }
+
+    #branddesignsolution h5 {
+        font-size: 6vmin;
+        line-height: 2;
+    }
+
+    #branddesignsolution .image-container {
+        border-radius: unset;
+        height: 50vh;
+    }
+
+    #branddesignsolution .image-container .branding {
+        border-radius: unset;
+        padding: 3rem 2rem 0.2rem;
+    }
+
+    #footerCTA h2 {
+        font-size: 8vmin;
+        line-height: normal;
+    }
+
+    #footerCTA h2 span {
+        font-size: 8vmin;
+        line-height: normal;
+    }
+
+    #footerCTA h4 {
+        margin: 1.5rem 0;
+        font-size: 5vmin;
+    }
+
+    #footerCTA p {
+        font-size: 4vmin;
+        width: 80%;
+    }
+
+    #footerCTA .ctaCard .upperPortion ul li {
+        font-size: 3.4vmin;
+    }
+
+    #footerCTA .ctaCard .upperPortion .img img {
+        border-radius: 50%;
+        width: 25vmin;
+    }
+
+    #footerCTA .ctaCard .upperPortion .img a img {
+        width: 9vmin;
+    }
+
+    #footerCTA .FormCTA {
+        margin: 3rem 0;
+    }
+
+    #footerCTA .FormCTA textarea,
+    #footerCTA .FormCTA input {
+        font-size: 4vmin;
+    }
+
+    #creations3d p {
+        padding: 0 10%;
+    }
+
+    #creations3d p {
+        font-size: 4vmin;
+    }
+
+    #creations3d a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #creations3d a {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #creations3d .slick-prev {
+        top: 61%;
+        z-index: 7;
+    }
+
+    #creations3d .slick-next {
+        top: 61%;
+        z-index: 7;
+    }
+
+    #creations3d .wrap {
+        left: -3%;
+        position: relative;
+    }
+
+
+    #motionDesign h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #motionDesign p {
+        font-size: 4vmin;
+    }
+
+    #motionDesign a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #motionDesign a {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #motionDesign .shopifu_slider_5 .slide_vex img {
+        width: 19vmin;
+    }
+
+
+
+
+    #contentCreationstiktokads h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #contentCreationstiktokads p {
+        font-size: 4vmin;
+    }
+
+    #contentCreationstiktokads a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #contentCreationstiktokads a {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #contentCreationstiktokads .tiktoksAds {
+        margin: 6rem 0 15rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        min-height: unset;
+
+        .slide_vex {
+            position: absolute;
+            transition: transform 0.5s ease;
+
+            &:nth-child(1) {
+                img {
+                    width: 55vmin;
+                    transform-origin: 58% 122%;
+                    rotate: 0;
+                    transition: rotate 0.5s ease;
+                }
+            }
+
+            &:nth-child(2) {
+                img {
+                    width: 55vmin;
+                    z-index: 2;
+                    position: relative;
+                    transition: transform 0.5s ease;
+                    // The commented styles have been preserved as comments
+                    // transform-origin: 59% 128%;
+                    // rotate: 330deg;
+                }
+            }
+
+            &:nth-child(3) {
+                img {
+                    width: 55vmin;
+                    transform-origin: 41% 122%;
+                    rotate: 0;
+                    transition: rotate 0.5s ease;
+                }
+            }
+        }
+
+
+
+        .slide_vex {
+            &:nth-child(1) {
+                img {
+                    rotate: 20deg;
+                }
+            }
+
+            &:nth-child(2) {
+                img {
+                    // transform: scale(1.05);
+                }
+            }
+
+            &:nth-child(3) {
+                img {
+                    rotate: -20deg;
+                }
+            }
+
+        }
+    }
+
+
+    #contentCreationsWalMart h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #contentCreationsWalMart p {
+        font-size: 4vmin;
+    }
+
+    #contentCreationsWalMart a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #contentCreationsWalMart a {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #contentCreationsWalMart .convexS-liderContainer svg.firstOne {
         position: absolute;
-        transition: transform 0.5s ease;
+        top: -14%;
+    }
 
-        &:nth-child(1) {
-            img {
-                width: 55vmin;
-                transform-origin: 58% 122%;
-                rotate: 0;
-                transition: rotate 0.5s ease;
-            }
-        }
+    #contentCreationsWalMart .convexS-liderContainer svg.secondOne {
+        position: absolute;
+        bottom: -14% !important;
+    }
 
-        &:nth-child(2) {
-            img {
-                width: 55vmin;
-                z-index: 2;
-                position: relative;
-                transition: transform 0.5s ease;
-                // The commented styles have been preserved as comments
-                // transform-origin: 59% 128%;
-                // rotate: 330deg;
-            }
-        }
+    header.masthead {
+        height: 8rem;
+        background-color: #fff;
+        z-index: 10;
+        position: fixed;
+    }
 
-        &:nth-child(3) {
-            img {
-                width: 55vmin;
-                transform-origin: 41% 122%;
-                rotate: 0;
-                transition: rotate 0.5s ease;
-            }
-        }
+    #amazonMAReasearch h2 {
+        font-size: 5vmin;
+    }
+
+    #amazonMAReasearch h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #amazonMAReasearch p {
+        font-size: 4vmin;
+    }
+
+    #amazonMAReasearch a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #amazonMAReasearch a {
+        margin-left: 1.5rem;
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #amazonMAReasearch .brandLogo {
+        width: 25%;
+        margin: 10px;
+    }
+
+    #amazonMAReasearch .brandLogo img {
+        width: 23vmin;
     }
 
 
 
-    .slide_vex {
-        &:nth-child(1) {
-            img {
-                rotate: 20deg;
-            }
-        }
-
-        &:nth-child(2) {
-            img {
-                // transform: scale(1.05);
-            }
-        }
-
-        &:nth-child(3) {
-            img {
-                rotate: -20deg;
-            }
-        }
-
+    section#designExcellenceAmazon h2 {
+        font-size: 5vmin;
     }
-}
-
-
-#contentCreationsWalMart h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#contentCreationsWalMart p {
-    font-size: 4vmin;
-}
-
-#contentCreationsWalMart a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#contentCreationsWalMart a {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#contentCreationsWalMart .convexS-liderContainer svg.firstOne {
-    position: absolute;
-    top: -14%;
-}
-
-#contentCreationsWalMart .convexS-liderContainer svg.secondOne {
-    position: absolute;
-    bottom: -14% !important;
-}
-
-header.masthead {
-    height: 8rem;
-    background-color: #fff;
-    z-index: 10;
-    position: fixed;
-}
-
-#amazonMAReasearch h2 {
-    font-size: 5vmin;
-}
-
-#amazonMAReasearch h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#amazonMAReasearch p {
-    font-size: 4vmin;
-}
-
-#amazonMAReasearch a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#amazonMAReasearch a {
-    margin-left: 1.5rem;
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#amazonMAReasearch .brandLogo {
-    width: 25%;
-    margin: 10px;
-}
-
-#amazonMAReasearch .brandLogo img {
-    width: 23vmin;
-}
-
-
-
-section#designExcellenceAmazon h2 {
-    font-size: 5vmin;
-}
-
-section#designExcellenceAmazon h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-section#designExcellenceAmazon p {
-    font-size: 4vmin;
-}
-
-section#designExcellenceAmazon a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#designExcellenceAmazon .card3PL {
-    width: 100%;
-    height: 100%;
-    margin: 10px 0;
-    padding: 50px 0;
-}
-
-#designExcellenceAmazon .col-md-9.d-flex {
-    flex-direction: column;
-}
-
-#designExcellenceAmazon .card3PL h4 {
-    font-size: 7vmin;
-    margin: 10px 0;
-}
-
-#designExcellenceAmazon .card3PL h5 {
-    font-size: 4vmin;
-}
-
-#accordian_ma_amazon .custom-accordion .accordion-button {
-    font-size: 4vmin;
-    padding: 2rem;
-}
-
-#accordian_ma_amazon .custom-accordion .accordion-body {
-    font-size: 4vmin;
-    padding: 2rem 1.5rem;
-}
-
-#accordian_ma_amazon .custom-accordion .accordion-button::before {
-    width: 7vmin;
-    height: 7vmin;
-    right: 4vmin;
-    font-size: 4vmin;
-}
-
-
-#letGetConnected h2 {
-    font-size: 5vmin;
-}
-
-#letGetConnected h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#letGetConnected p {
-    font-size: 4vmin;
-}
-
-#letGetConnected a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#letGetConnected a {
-    margin-left: 2.5rem;
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#letGetConnected img {
-    width: 100%;
-    margin-top: 2rem;
-}
-
-#careerForm .container-xxl {
-    padding: 8vmin;
-}
-
-#careerForm .container-xxl h3 {
-    font-size: 6vmin;
-    line-height: 50px;
-}
-
-#careerForm .FormCTA input.w-48 {
-    width: 100%;
-}
-
-
-
-#careerForm .FormCTA button::before {
-    left: -23%;
-    width: 39px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#careerForm .FormCTA button {
-    margin-left: 2rem;
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-section#careerForm {
-    padding: 4rem 0;
-}
-
-#careerForm .container-xxl {
-    padding: 8vmin;
-}
-
-#careerForm .container-xxl h3 {
-    font-size: 6vmin;
-    line-height: 50px;
-}
-
-#careerForm .FormCTA input.w-48 {
-    width: 100%;
-}
-
-
-
-#careerForm .FormCTA button::before {
-    left: -23%;
-    width: 39px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#careerForm .FormCTA button {
-    margin-left: 2rem;
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-section#careerForm {
-    padding: 4rem 0;
-}
-
-#nextCareer h2 {
-    font-size: 6vmin;
-    letter-spacing: -1px;
-    line-height: 50px;
-}
-
-#nextCareer span {
-    font-size: 4vmin;
-    line-height: 50px;
-}
-
-#nextCareer p {
-    font-size: 5vmin;
-    line-height: 31px;
-    margin-bottom: 5rem;
-}
-
-#nextCareer .animatingDude {
-    width: 9vmin;
-    margin-bottom: 26rem;
-}
-
-#nextCareer .cardList a::before {
-    left: -32%;
-    width: 39px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#nextCareer .cardList a {
-    margin-left: 2rem;
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-
-#nextCareer .cardList {
-    margin: 1rem 0;
-}
-
-#workWithUs h2 {
-    font-size: 6vmin;
-}
-
-#workWithUs h2 span::before {
-    height: 5rem;
-    bottom: -5px;
-    left: -3px;
-    width: 5.5rem;
-}
-
-
-#workWithUs .cardbenfits {
-    margin: 1rem 0;
-    border: none;
-}
-
-#brandingServiceUSA p {
-    font-size: 4vmin;
-}
-
-
-#brandingServiceUSA a::before {
-    left: -22%;
-    width: 44px;
-    height: 39px;
-    padding: 12px;
-    border-radius: 16px;
-    font-size: 16px;
-    min-width: unset;
-    min-height: unset;
-}
-
-#brandingServiceUSA a {
-    padding: 6.5px 37.42px 6.5px 37.41px;
-}
-
-#brandingServiceUSA img {
-    width: 45vmin;
-    height: 100%;
-    margin: 10px;
-}
-
-#brandingServiceUSA {
-    padding: 8rem 0 0;
-}
-
-#designExcellence h2 {
-    font-size: 6vmin;
-}
-
-#designExcellence h2 span::before {
-    bottom: -5px;
-    left: -3px;
-    width: 3.5rem;
-}
-
-#designExcellence h2 {
-    font-size: 6vmin;
+
+    section#designExcellenceAmazon h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    section#designExcellenceAmazon p {
+        font-size: 4vmin;
+    }
+
+    section#designExcellenceAmazon a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #designExcellenceAmazon .card3PL {
+        width: 100%;
+        height: 100%;
+        margin: 10px 0;
+        padding: 50px 0;
+    }
+
+    #designExcellenceAmazon .col-md-9.d-flex {
+        flex-direction: column;
+    }
+
+    #designExcellenceAmazon .card3PL h4 {
+        font-size: 7vmin;
+        margin: 10px 0;
+    }
+
+    #designExcellenceAmazon .card3PL h5 {
+        font-size: 4vmin;
+    }
+
+    #accordian_ma_amazon .custom-accordion .accordion-button {
+        font-size: 4vmin;
+        padding: 2rem;
+    }
+
+    #accordian_ma_amazon .custom-accordion .accordion-body {
+        font-size: 4vmin;
+        padding: 2rem 1.5rem;
+    }
+
+    #accordian_ma_amazon .custom-accordion .accordion-button::before {
+        width: 7vmin;
+        height: 7vmin;
+        right: 4vmin;
+        font-size: 4vmin;
+    }
+
+
+    #letGetConnected h2 {
+        font-size: 5vmin;
+    }
+
+    #letGetConnected h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #letGetConnected p {
+        font-size: 4vmin;
+    }
+
+    #letGetConnected a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #letGetConnected a {
+        margin-left: 2.5rem;
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #letGetConnected img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    #careerForm .container-xxl {
+        padding: 8vmin;
+    }
+
+    #careerForm .container-xxl h3 {
+        font-size: 6vmin;
+        line-height: 50px;
+    }
+
+    #careerForm .FormCTA input.w-48 {
+        width: 100%;
+    }
+
+
+
+    #careerForm .FormCTA button::before {
+        left: -23%;
+        width: 39px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #careerForm .FormCTA button {
+        margin-left: 2rem;
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    section#careerForm {
+        padding: 4rem 0;
+    }
+
+    #careerForm .container-xxl {
+        padding: 8vmin;
+    }
+
+    #careerForm .container-xxl h3 {
+        font-size: 6vmin;
+        line-height: 50px;
+    }
+
+    #careerForm .FormCTA input.w-48 {
+        width: 100%;
+    }
+
+
+
+    #careerForm .FormCTA button::before {
+        left: -23%;
+        width: 39px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #careerForm .FormCTA button {
+        margin-left: 2rem;
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    section#careerForm {
+        padding: 4rem 0;
+    }
+
+    #nextCareer h2 {
+        font-size: 6vmin;
+        letter-spacing: -1px;
+        line-height: 50px;
+    }
+
+    #nextCareer span {
+        font-size: 4vmin;
+        line-height: 50px;
+    }
+
+    #nextCareer p {
+        font-size: 5vmin;
+        line-height: 31px;
+        margin-bottom: 5rem;
+    }
+
+    #nextCareer .animatingDude {
+        width: 9vmin;
+        margin-bottom: 26rem;
+    }
+
+    #nextCareer .cardList a::before {
+        left: -32%;
+        width: 39px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #nextCareer .cardList a {
+        margin-left: 2rem;
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+
+    #nextCareer .cardList {
+        margin: 1rem 0;
+    }
+
+    #workWithUs h2 {
+        font-size: 6vmin;
+    }
+
+    #workWithUs h2 span::before {
+        height: 5rem;
+        bottom: -5px;
+        left: -3px;
+        width: 5.5rem;
+    }
+
+
+    #workWithUs .cardbenfits {
+        margin: 1rem 0;
+        border: none;
+    }
+
+    #brandingServiceUSA p {
+        font-size: 4vmin;
+    }
+
+
+    #brandingServiceUSA a::before {
+        left: -22%;
+        width: 44px;
+        height: 39px;
+        padding: 12px;
+        border-radius: 16px;
+        font-size: 16px;
+        min-width: unset;
+        min-height: unset;
+    }
+
+    #brandingServiceUSA a {
+        padding: 6.5px 37.42px 6.5px 37.41px;
+    }
+
+    #brandingServiceUSA img {
+        width: 45vmin;
+        height: 100%;
+        margin: 10px;
+    }
+
+    #brandingServiceUSA {
+        padding: 8rem 0 0;
+    }
+
+    #designExcellence h2 {
+        font-size: 6vmin;
+    }
+
+    #designExcellence h2 span::before {
+        bottom: -5px;
+        left: -3px;
+        width: 3.5rem;
+    }
+
+    #designExcellence h2 {
+        font-size: 6vmin;
+    }
 }
