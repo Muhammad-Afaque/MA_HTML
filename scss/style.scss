@@ -310,6 +310,58 @@ header.masthead {
         color: #000F34;
     }
 
+    h2 {
+        color: #000;
+        font-family: Manrope;
+        font-size: 5vmin;
+        font-style: normal;
+        font-weight: 700;
+
+        span {
+            color: #33B9C0;
+
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 700;
+            position: relative;
+            display: inline-block;
+
+            &:before {
+                content: "";
+                position: absolute;
+                width: 8rem;
+                height: 24px;
+                background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22173%22%20height%3D%2230%22%20viewBox%3D%220%200%20173%2030%22%20fill%3D%22none%22%3E%3Cmask%20id%3D%22mask0_625_6793%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22173%22%20height%3D%2230%22%3E%3Cpath%20d%3D%22M173%200H0V30H173V0Z%22%20fill%3D%22white%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23mask0_625_6793)%22%3E%3Cpath%20d%3D%22M9.80469%2018.8285C23.448%2022.3825%2037.8711%2023.2565%2051.9746%2021.3845C56.9864%2020.7195%2062.0415%2019.6615%2066.2673%2017.2875C69.2573%2015.6145%2075.047%2010.8885%2073.4399%207.39751C73.1146%206.81551%2072.6244%206.31051%2072.012%205.92851C71.3996%205.54651%2070.6851%205.29851%2069.9314%205.20651C65.9478%204.57151%2060.9533%205.41151%2057.8335%207.58051C53.4007%2010.6265%2051.914%2016.5275%2054.9992%2020.5885C58.4125%2025.0955%2065.637%2026.1685%2071.9538%2025.9785C87.3352%2025.5115%20102.562%2020.3105%20115.161%2013.0725C116.407%2012.4385%20117.503%2011.6135%20118.392%2010.6405C118.828%2010.1475%20119.11%209.57051%20119.211%208.96151C119.313%208.35251%20119.229%207.73151%20118.971%207.15651C117.908%205.21351%20114.495%205.06051%20112.369%206.22151C106.226%209.58851%20107.547%2017.1045%20114.003%2019.4635C118.151%2020.9755%20122.912%2020.4205%20127.319%2019.6175C140.074%2017.2685%20152.226%2013.0025%20163.198%207.02451%22%20stroke%3D%22%2333B9C0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                bottom: -23px;
+                left: -15px;
+            }
+        }
+    }
+
+    h4 {
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        color: #FFF;
+
+        font-family: Manrope;
+        font-size: 26.34px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
     li {
         list-style: none;
     }
@@ -425,7 +477,7 @@ header.masthead {
             color: #000;
             font-feature-settings: 'liga' off, 'clig' off;
             font-family: Manrope;
-            font-size: 58px;
+            font-size: 6vmin;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -551,18 +603,17 @@ header.masthead {
 
     h2 {
         color: #FFF;
-
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         span {
             color: #33B9C0;
 
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -762,12 +813,12 @@ $scrollbar-bg: #202741;
     // Typography
     h2 {
         @include heading-base;
-        font-size: 43.69px;
-        font-weight: 600;
+        font-size: 6vmin;
+        font-weight: 700;
 
         span {
             color: $primary-color;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -930,11 +981,10 @@ $scrollbar-bg: #202741;
 
     h2 {
         color: #33B9C0;
-
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         &:before {
             content: "";
@@ -951,10 +1001,9 @@ $scrollbar-bg: #202741;
 
         span {
             color: #000;
-
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -1109,16 +1158,16 @@ $scrollbar-bg: #202741;
         color: #fff;
 
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         span {
             color: #fff;
 
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -1159,9 +1208,9 @@ $scrollbar-bg: #202741;
         color: #000;
         text-align: center;
         font-family: Manrope;
-        font-size: 54.797px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 78.4px;
         /* 143.074% */
         letter-spacing: -0.5px;
@@ -1169,9 +1218,9 @@ $scrollbar-bg: #202741;
         span {
             color: #33B9C0;
             font-family: Manrope;
-            font-size: 54.797px;
+            font-size: 5vmin;
             font-style: normal;
-            font-weight: 500;
+            font-weight: 700;
             line-height: 78.4px;
             letter-spacing: -0.5px;
         }
@@ -1235,9 +1284,9 @@ $scrollbar-bg: #202741;
         color: #33B9C0;
 
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         &:before {
             content: "";
@@ -1257,7 +1306,7 @@ $scrollbar-bg: #202741;
 
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -1308,16 +1357,16 @@ $scrollbar-bg: #202741;
         color: #000;
 
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         span {
             color: #33B9C0;
 
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -1442,18 +1491,17 @@ $text-white: #ffffff;
 
     h2 {
         color: #fff;
-
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         span {
             color: #33B9C0;
 
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -1529,9 +1577,9 @@ $text-white: #ffffff;
             position: relative;
             color: #FFF;
             font-family: Manrope;
-            font-size: 32px;
+            font-size: 5vmin;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             line-height: normal;
             text-align: center;
         }
@@ -1552,16 +1600,15 @@ $text-white: #ffffff;
         color: #fff;
         margin-bottom: 5rem;
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         span {
             color: #33B9C0;
-
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -1657,16 +1704,16 @@ $text-white: #ffffff;
         color: #000;
         margin-bottom: 5rem;
         font-family: Manrope;
-        font-size: 43.69px;
+        font-size: 5vmin;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 700;
 
         span {
             color: #33B9C0;
 
             font-family: Manrope;
             font-style: normal;
-            font-weight: 600;
+            font-weight: 700;
             position: relative;
             display: inline-block;
 
@@ -1951,7 +1998,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -2081,7 +2128,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -2207,7 +2254,7 @@ $text-white: #ffffff;
     h2 {
         color: black;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -2381,7 +2428,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -2565,7 +2612,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -2709,7 +2756,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -2804,7 +2851,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -3161,7 +3208,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -3310,7 +3357,7 @@ $text-white: #ffffff;
     h2 {
         color: #fff;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -3681,7 +3728,7 @@ $text-white: #ffffff;
         color: #fff;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -3797,7 +3844,7 @@ $text-white: #ffffff;
     h2 {
         color: #000;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -3982,7 +4029,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -3995,7 +4042,7 @@ $text-white: #ffffff;
             color: #004852;
             font-feature-settings: 'liga' off, 'clig' off;
             font-family: Manrope;
-            font-size: 58px;
+            font-size: 6vmin;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -4329,7 +4376,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -4558,7 +4605,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -4666,7 +4713,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -4821,7 +4868,7 @@ $text-white: #ffffff;
         color: #fff;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -4962,7 +5009,7 @@ $text-white: #ffffff;
     h2 {
         color: #000;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -5149,7 +5196,7 @@ $text-white: #ffffff;
         color: #fff;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -5273,7 +5320,7 @@ $text-white: #ffffff;
         color: #fff;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -5400,7 +5447,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -5524,7 +5571,7 @@ $text-white: #ffffff;
         color: #fff;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -5638,7 +5685,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -5772,7 +5819,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -5785,7 +5832,7 @@ $text-white: #ffffff;
             color: #004852;
             font-feature-settings: 'liga' off, 'clig' off;
             font-family: Manrope;
-            font-size: 58px;
+            font-size: 6vmin;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -5946,7 +5993,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -6094,7 +6141,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -6230,7 +6277,7 @@ $text-white: #ffffff;
         color: #fff;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -6917,7 +6964,7 @@ $text-white: #ffffff;
         color: #fff;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -6930,7 +6977,7 @@ $text-white: #ffffff;
             color: #33b9c0;
             font-feature-settings: 'liga' off, 'clig' off;
             font-family: Manrope;
-            font-size: 58px;
+            font-size: 6vmin;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -7390,7 +7437,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -7574,7 +7621,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -7777,7 +7824,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -7854,7 +7901,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -7969,7 +8016,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -8177,7 +8224,7 @@ $text-white: #ffffff;
         color: #000;
         font-feature-settings: 'liga' off, 'clig' off;
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -8190,7 +8237,7 @@ $text-white: #ffffff;
             color: #33b9c0;
             font-feature-settings: 'liga' off, 'clig' off;
             font-family: Manrope;
-            font-size: 58px;
+            font-size: 6vmin;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -8259,7 +8306,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -8651,7 +8698,7 @@ $text-white: #ffffff;
 
     h2 {
         font-family: Manrope;
-        font-size: 58px;
+        font-size: 6vmin;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -9337,4 +9384,526 @@ $text-white: #ffffff;
     }
 
 
+}
+
+
+#valuesHome.values_homepage {
+    padding: 6rem 0 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    h2 {
+        color: #000;
+        font-family: Manrope;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+        margin-bottom: 5vmin;
+
+        span {
+            color: #17ABBF;
+            position: relative;
+            font-family: Manrope;
+            font-size: 70px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 80px;
+
+            &:before {
+                content: "";
+                position: absolute;
+                width: 8rem;
+                height: 24px;
+                background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22173%22%20height%3D%2230%22%20viewBox%3D%220%200%20173%2030%22%20fill%3D%22none%22%3E%3Cmask%20id%3D%22mask0_625_6793%22%20style%3D%22mask-type%3Aluminance%22%20maskUnits%3D%22userSpaceOnUse%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22173%22%20height%3D%2230%22%3E%3Cpath%20d%3D%22M173%200H0V30H173V0Z%22%20fill%3D%22white%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23mask0_625_6793)%22%3E%3Cpath%20d%3D%22M9.80469%2018.8285C23.448%2022.3825%2037.8711%2023.2565%2051.9746%2021.3845C56.9864%2020.7195%2062.0415%2019.6615%2066.2673%2017.2875C69.2573%2015.6145%2075.047%2010.8885%2073.4399%207.39751C73.1146%206.81551%2072.6244%206.31051%2072.012%205.92851C71.3996%205.54651%2070.6851%205.29851%2069.9314%205.20651C65.9478%204.57151%2060.9533%205.41151%2057.8335%207.58051C53.4007%2010.6265%2051.914%2016.5275%2054.9992%2020.5885C58.4125%2025.0955%2065.637%2026.1685%2071.9538%2025.9785C87.3352%2025.5115%20102.562%2020.3105%20115.161%2013.0725C116.407%2012.4385%20117.503%2011.6135%20118.392%2010.6405C118.828%2010.1475%20119.11%209.57051%20119.211%208.96151C119.313%208.35251%20119.229%207.73151%20118.971%207.15651C117.908%205.21351%20114.495%205.06051%20112.369%206.22151C106.226%209.58851%20107.547%2017.1045%20114.003%2019.4635C118.151%2020.9755%20122.912%2020.4205%20127.319%2019.6175C140.074%2017.2685%20152.226%2013.0025%20163.198%207.02451%22%20stroke%3D%22%2333B9C0%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: bottom;
+                bottom: -23px;
+                left: -15px;
+            }
+        }
+    }
+
+    a {
+        text-align: center;
+        z-index: 2;
+        border-radius: 16px;
+        background: #33B9C0;
+        padding: 16.5px 76.41px;
+        color: #000;
+        font-family: Manrope;
+        font-size: 18px;
+        border: none;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0.3px;
+        width: max-content;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        margin: auto;
+        margin-top: 2rem;
+        left: 28%;
+
+        &:before {
+            content: "";
+            position: absolute;
+            background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2237%22%20height%3D%2236%22%20viewBox%3D%220%200%2037%2036%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M9.49805%209.00098L27.498%2027.001%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M9.492%2026.9923H27.4922V8.99219%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            bottom: 0px;
+            left: -28%;
+            background-color: #33b9c0;
+            display: flex;
+            width: 60px;
+            height: 57px;
+            padding: 12px;
+            border-radius: 16px;
+        }
+    }
+
+    h4 {
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        color: #000;
+        font-family: Manrope;
+        font-size: 22.362px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: lowercase;
+        margin-bottom: 8vmin;
+    }
+
+
+    li {
+        list-style: none;
+    }
+
+    .accordion {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .accordion__image {
+        width: 100%;
+        filter: grayscale(100%);
+        height: 100%;
+        object-fit: cover;
+        object-position: left bottom;
+        transition: transform 0.3s ease;
+    }
+
+    .accordion__title {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        position: absolute;
+        bottom: 0.5em;
+        right: 0.5em;
+        writing-mode: vertical-rl;
+        font-size: clamp(1em, 3vw - 0.5em, 3em);
+        color: #ffffff;
+        letter-spacing: 0.2em;
+        text-transform: Uppercase;
+    }
+
+    .accordion__title::after {
+        content: "+";
+        margin-top: 0.3em;
+    }
+
+    .accordion__description {
+        position: absolute;
+        width: 60%;
+        left: 1em;
+        bottom: 1em;
+        color: #ffffff;
+        transform: translateY(200px);
+        opacity: 0;
+        transition: all 0.3s ease-out;
+        transition-property: opacity, transform;
+    }
+
+    .accordion__overlay {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(15, 15, 15, 0) 0%, #111111 100%);
+        opacity: 1;
+        transition: opacity 0.4s ease-out;
+    }
+
+    .accordion__item {
+        position: relative;
+        flex-grow: 1;
+        width: 72px;
+        height: 75vh;
+        background: hsl(0, 0%, 8%);
+        transition: flex-grow 300ms ease;
+        overflow: hidden;
+        border-left: 22px solid white;
+    }
+
+    .accordion__item:hover {
+        width: 45rem;
+    }
+
+    .accordion__item:hover .accordion__overlay {
+        opacity: 0.5;
+    }
+
+    .accordion__item:hover .accordion__title::after {
+        content: none;
+    }
+
+    .accordion__item:hover .accordion__description {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .accordion__item:hover .accordion__image {
+        object-position: left top;
+        filter: none;
+    }
+}
+
+
+/* /////////////////// */
+/* media query */
+/* /////////////////// */
+
+
+
+header.masthead section.fullbarBG .topbar h3 {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+
+header.masthead section.fullbarBG .topbar {
+    justify-content: center;
+    align-items: center;
+}
+
+header.masthead section.fullbarBG .topbar a {
+    display: none;
+}
+
+.CTA.my-auto {
+    display: none;
+}
+
+nav {
+    width: 100%;
+}
+
+header.masthead ul.nav-links {
+    justify-content: start;
+    padding-top: 50%;
+}
+
+header.masthead ul.nav-links li {
+    padding: 5vmin 0;
+}
+
+#sm_tabs .hexagon-home .graphic {
+    flex-direction: column !important;
+}
+
+#sm_tabs .hexagon-home .graphic .entries {
+    height: 100%;
+}
+
+#sm_tabs .hexagon-home h2 {
+    font-size: 6vmin;
+}
+
+#sm_tabs .hexagon-home .graphic .entries .hex-cell {
+    padding: 0 3rem;
+    justify-content: flex-start;
+    height: 17vmin;
+}
+
+#sm_tabs .hexagon-home .graphic .entries .hex-cell span a {
+    font-size: 4vmin;
+}
+
+#sm_tabs .hexagon-home .graphic .entries .hex-cell span a svg {
+    width: 8vmin;
+    margin-left: 1rem;
+
+}
+
+#sm_tabs .hexagon-home .graphic .selected-wrap {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+#values .accordion__item:active {
+    width: 160vmin;
+}
+
+#values .accordion__item.expanded {
+    width: 160vmin;
+}
+
+#values .accordion__item.expanded {
+    width: 160vmin;
+}
+
+#seo h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#values .accordion {
+    width: 1300px;
+    overflow-x: scroll;
+}
+
+#seo h4 {
+    margin: 1.5rem 0;
+    font-size: 5vmin;
+}
+
+#seo p {
+    font-size: 4vmin;
+    width: 80%;
+}
+
+#seo .seoFeatureCardParent .seoFeatureCard {
+    width: 19em;
+    height: 19em;
+}
+
+#seo .seoFeatureCardParent .seoFeatureCard img {
+    width: 10em;
+}
+
+#seo .seoFeatureCardParent .seoFeatureCard h4 {
+    font-size: 7vmin;
+}
+
+#seo .seoFeatureCardParent .seoFeatureCard h5 {
+    font-size: 5vmin;
+}
+
+
+#seo .seoFeatureCardParent {
+    padding-top: 1rem;
+}
+
+#BrandSuccessSteps h4 {
+    margin: 1.5rem 0;
+    font-size: 5vmin;
+}
+
+#BrandSuccessSteps p {
+    font-size: 4vmin;
+    width: 80%;
+}
+
+#BrandSuccessSteps h2 span::before {
+    bottom: -5px;
+    left: -3px;
+    width: 3.5rem;
+}
+
+#BrandSuccessSteps .MALogo {
+    display: none;
+}
+
+#BrandSuccessSteps .slides_steps p {
+    width: 100%;
+    font-size: 3.5vmin;
+}
+
+#BrandSuccessSteps .slides_steps h2 {
+    font-size: 5vmin;
+}
+
+#BrandSuccessSteps {
+    min-height: 85vh;
+    position: relative;
+    padding: 5rem 0 0;
+}
+
+#services.services-section h2::before {
+    bottom: -5px;
+    left: 25%;
+    width: 3.5rem;
+}
+
+#services.services-section .service-card .card-content .card-title {
+    font-size: 1rem;
+}
+
+#services.services-section {
+    min-height: 208vh;
+}
+
+#services.services-section .cards-container.grid-view {
+    z-index: 1;
+}
+
+#services.services-section {
+    background: none;
+}
+
+header.masthead section.fullbarBG {
+    width: 100vw;
+}
+
+.ecommerce-services h2 span::before {
+    bottom: -5px;
+    left: 25%;
+    width: 3.5rem;
+
+}
+
+.ecommerce-services button::before {
+
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+.ecommerce-services button {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+.ecommerce-services .service-card-ecom {
+    margin-left: -17px;
+}
+
+#plservices svg {
+    height: 100%;
+}
+
+#plservices {
+    padding: 5rem 0 0;
+}
+
+#experience button::before {
+
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#experience button {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#experience h3 {
+    line-height: unset;
+}
+
+#experience h3 br {
+    display: none;
+}
+
+#socialmedia.socialmedia-section h2::before {
+    bottom: -5px;
+    left: 4%;
+    width: 3.5rem;
+}
+
+#socialmedia.socialmedia-section .convexS-liderContainer svg.firstOne {
+    top: -13%;
+}
+
+#socialmedia.socialmedia-section .convexS-liderContainer svg.secondOne {
+    bottom: -14%;
+}
+
+#threeddesign .designCard h4 {
+    font-size: 4vmin;
+    top: 5em;
+}
+
+
+#threeddesign .designCard button::before {
+
+    width: 44px;
+    height: 39px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 16px;
+    min-width: unset;
+    min-height: unset;
+}
+
+#threeddesign .designCard button {
+    padding: 6.5px 37.42px 6.5px 37.41px;
+}
+
+#graphicdesign .image-container {
+    display: flex;
+    justify-content: center;
+}
+
+#graphicdesign h5 {
+    margin-bottom: 2rem;
+}
+
+#branddesignsolution .before {
+    display: none;
+}
+
+#branddesignsolution .after {
+    display: none;
+}
+
+#branddesignsolution h2 span::before {
+    bottom: -5px;
+    left: 25%;
+    width: 3.5rem;
+}
+
+#branddesignsolution h2 {
+    margin-bottom: 1rem;
+}
+
+#branddesignsolution .title-link {
+    width: 40%;
+}
+
+#branddesignsolution .title-brand {
+    width: 45%;
+}
+
+#branddesignsolution h5 {
+    font-size: 6vmin;
+    line-height: 2;
 }
